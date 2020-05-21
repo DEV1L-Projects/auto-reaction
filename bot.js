@@ -15,7 +15,7 @@ client.on('ready', () => {
 
 // Test Code //
 client.on("message", message => {
-  if (message.content === "Are You Ready ?") {
+  if (message.content === "Are You Ready ? [322922]") {
     message.channel.send("Yes, Sir !");
   }
 });
