@@ -24,16 +24,8 @@ client.on("message", message => {
 // ======================================================= //
 
 // GiveAwayBot
-client.on('message', message => {
+client.on('message', message => { 
     if (message.author.id !== '294882584201003009') return;
-    message.react('🎉');
-});
-
-// ======================================================= //
-
-// Santa Wumpus
-client.on('message', message => {
-    if (message.author.id !== '582537632991543307') return;
     message.react('🎉');
 });
 
